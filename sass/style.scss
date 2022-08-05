@@ -59,16 +59,43 @@ header {
   }
   &__btn {
     border: 0;
+    width: 210px;
+    height: 50px;
     margin: 17px 0px;
-    font-size: 0.8em;
-    background: linear-gradient(178deg, #ff79da 5%, #9356dc 100%);
-    color: #fff;
-    border-radius: 22px;
-    font-weight: $textebold;
-    padding: 13px 20px;
+    background: linear-gradient(to bottom right, #ff79da , #9356dc );
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 3px 5px 7px #c3c3c3;
+    position: relative;
+    z-index: 1;
+  }
+  & a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    z-index: 2;
   }
 }
-
+.discovery__btn:hover:after{
+  opacity: 1;
+}
+.discovery__btn:after{
+  content: "";
+  text-align: center;
+  width: 210px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom right, #ff9de4 , #a674e2);
+  box-shadow: 0px 2px 5px 3px #c3c3c3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 450ms;
+}
 .search {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -92,8 +119,9 @@ header {
     @include box-shadow;
     margin-top: 20px;
     margin-left: 10px;
+    cursor: pointer;
   }
-  &__p {
+  &__num {
     margin-left: -3%;
     background-color: $couleur-primaire;
     border-radius: 20px;
@@ -110,8 +138,8 @@ header {
     font-size: 1.1em;
   }
 }
-.choix__li:hover{
-  background-color: $couleur-primaire, 10% ;
+.choix__li:hover {
+  background-color: #f0e7fa;
 }
 .block__card {
   background-color: #f4f4f4;
@@ -137,8 +165,8 @@ header {
   display: flex;
   &__new {
   position: absolute;
-  margin-left: 250px;
-  margin-top: 13px;
+  margin-left: 67%;
+  margin-top: 3%;
   background-color: #99e2d0;
   border-radius: 2px;
   width: auto;
@@ -163,13 +191,23 @@ header {
 }
 &__i {
   position: relative;
-  padding: 25px;
+  padding: 25px 45px;
   font-size: 1.4em;
 }
-&__i:hover {
-  background-image: linear-gradient(178deg, #ff79da 5%, #9356dc 100%);
+.heartregular{
+  position: absolute;
 }
+.heartsolid{
+  position: absolute;
+  opacity: 0;
+  background-color: linear-gradient(to bottom right, #ff79da , #9356dc );
 }
+.heartsolid:hover{
+  transition: transform 100ms;
+  opacity: 1;
+}
+  }
+
 .sitemap {
   color: $couleur-de-fond;
   background-color: #323232;
@@ -191,4 +229,22 @@ header {
   margin-right: 10px;
   font-size: 0.6em;
 }
+}
+
+/*-- page1 --*/
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu__img{
+  margin-bottom: -50px;
+}
+.menu__img img{
+  
+}
+.entrees__title{
+  border-radius: 25px;
+  font-size: 1.5em;
+  align-items: center;
+  display: flex;
 }
