@@ -35,8 +35,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #e9e9e9;
-  
-  @include box-shadow;
+
   & i {
     margin-right: 15px;
   }
@@ -62,31 +61,31 @@ header {
     width: 210px;
     height: 50px;
     margin: 17px 0px;
-    background: linear-gradient(to bottom right, #ff79da , #9356dc );
+    background: linear-gradient(to bottom right, #ff79da, #9356dc);
     border-radius: 50px;
-    font-weight: bold;
     box-shadow: 3px 5px 7px #c3c3c3;
     position: relative;
     z-index: 1;
-  }
-  & a{
-    text-decoration: none;
     color: white;
     font-size: 1.1em;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
     z-index: 2;
   }
 }
-.discovery__btn:hover:after{
+.discovery__btn:hover:after {
   opacity: 1;
 }
-.discovery__btn:after{
+.discovery__btn:after {
   content: "";
   text-align: $textecenter;
   width: 210px;
   height: 50px;
   line-height: 50px;
   border-radius: 50px;
-  background-image: linear-gradient(to bottom right, #ff9de4 , #a674e2);
+  background-image: linear-gradient(to bottom right, #ff9de4, #a674e2);
   box-shadow: 0px 2px 5px 3px #c3c3c3;
   position: absolute;
   top: 0;
@@ -115,7 +114,7 @@ header {
     height: 70px;
     border-radius: 15px;
     display: flex;
-    @include box-shadow;
+
     margin-top: 20px;
     margin-left: 10px;
     cursor: pointer;
@@ -145,97 +144,97 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   &__h2 {
-  padding: 19px 20px;
-  font-size: 1.5em;
+    padding: 19px 20px;
+    font-size: 1.5em;
+  }
+  &__a {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+  }
 }
-  &__a{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-  text-decoration: none;
-  color: black;
-}
-}
-  .card {
+.card {
   flex-direction: column;
   width: 90%;
-  border-radius:15px; 
+  border-radius: 15px;
   box-shadow: $box-shadow;
   display: flex;
   &__new {
-  position: absolute;
-  margin-left: 67%;
-  margin-top: 3%;
-  background-color: #99e2d0;
-  border-radius: 2px;
-  width: auto;
-  height: auto;
-  padding: 6px 12px;
-  font-size: 0.8em;
-}
-&__img {
-  border-radius: 15px 15px 0px 0px;
-  height: 160px;
-}
-&__description {
-  background-color: white;
-  height: 71px;
-  border-radius: 0px 0px 15px 15px;
-  display: flex;
-  justify-content: space-between;
-}
-&__text {
-  padding: 15px;
-  font-size: 1.1em;
-}
-&__i {
-  position: relative;
-  padding: 25px 45px;
-  font-size: 1.4em;
-}
-.heartregular{
-  position: absolute;
-}
-.heartsolid{
-  position: absolute;
-  opacity: 0;
-  background-color: linear-gradient(to bottom right, #ff79da , #9356dc );
-}
-.heartsolid:hover{
-  transition: transform 100ms;
-  opacity: 1;
-}
+    position: absolute;
+    margin-left: 67%;
+    margin-top: 3%;
+    background-color: #99e2d0;
+    border-radius: 2px;
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 0.8em;
   }
+  &__img {
+    border-radius: 15px 15px 0px 0px;
+    height: 160px;
+  }
+  &__description {
+    background-color: white;
+    height: 71px;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    padding: 15px;
+    font-size: 1.1em;
+  }
+  &__i {
+    position: relative;
+    padding: 25px 45px;
+    font-size: 1.4em;
+  }
+  .heartregular {
+    position: absolute;
+  }
+  .heartsolid {
+    position: absolute;
+    opacity: 0;
+    background-color: linear-gradient(to bottom , #ff79da, #9356dc);
+  }
+  .heartsolid:hover {
+    transition: transform 100ms;
+    opacity: 1;
+  }
+}
 
 .sitemap {
   color: $couleur-de-fond;
   background-color: #323232;
   height: 155px;
   padding: 20px 20px;
-&__h4 {
-  font-size: 1.2em;
+  &__h4 {
+    font-size: 1.2em;
+  }
 }
-}
-.contact{
+.contact {
   list-style: none;
   margin-top: 15px;
-& li{
-  margin-top: 7px;
-  display: flex;
-  align-items: center;
-}
-& i{
-  margin-right: 10px;
-  font-size: 0.6em;
-}
+  & li {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+  }
+  & i {
+    margin-right: 10px;
+    font-size: 0.6em;
+  }
 }
 
-    /*-- page1 --*/
-.logo{
+/*-- page1 --*/
+.logo {
   display: flex;
-    justify-content: center;
-    position: relative;
-  & a{
+  justify-content: center;
+  position: relative;
+  & a {
     font-size: 1.1em;
     padding: 3%;
     position: absolute;
@@ -245,65 +244,89 @@ header {
   }
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
-  &__contenu{
+  & img{
+    height: 260px;
+  }
+  &__contenu {
     background-color: white;
     border-radius: 30px;
     margin-top: -50px;
     background-color: $couleur-de-fond;
   }
 }
-.contenu__titre{
+.contenu__titre {
   align-items: center;
   position: relative;
   padding: 25px 20px;
-  & h1{
+  & h1 {
     font-size: 1.8em;
   }
-  & i{
+  & i {
     position: absolute;
     font-size: 1.3em;
     right: 10%;
     top: 34px;
   }
 }
-.contenu__carte{
+.contenu__carte {
   display: flex;
-    justify-content: space-between;
-    padding: 0px 20px;
-    flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 20px;
+  flex-direction: column;
 }
- .carte__groupe{
-    margin: 10px 0 20px 0;
-  & h2{
+.carte__groupe {
+  margin: 10px 0px 20px 0px;
+  & h2 {
     font-weight: initial;
   }
-  & li{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    margin-top: 15px;
-    border-radius: 15px;
-    height: 60px;
-    box-shadow: $box-shadow;
-    padding: 0% 4%;
-  }
- }
- .carte__texte{
+}
+.carte{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 15px;
+  height: 60px;
+  box-shadow: $box-shadow;
+  padding-left: 20px;
   text-decoration: none;
- &carte__titre h3{
-  font-size: 1.1em;
- }
-  &carte__titer p{
+  &__titre {
+    width: 92%;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  p {
     margin-top: 4px;
     font-size: 0.9em;
   }
- &carte__prix{
-  margin-left: 35%;
-  margin-top: 25px;
-  font-weight: bold;
-  font-size: 0.9em;
- }
+  &__prix {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+}
+.carte:hover{
+.carte__check{
+  transform: scale(1);
+  transform-origin: right;
+
+}
+}
+
+.carte__check{
+  background-color: #99e2d0;
+    color: #fff;
+    width: 15%;
+    height: 60px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    transform: scale(0);
+    transition: transform 1000ms ease 50ms;
 }
