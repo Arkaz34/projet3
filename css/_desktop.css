@@ -1,0 +1,35 @@
+/*-- Media Queries desktop 991px--*/
+.choix{
+    display: flex;
+    flex-direction: inherit;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+.choix__li{
+    margin-left: 3%;
+}
+.block__carte__1{
+    display: flex;
+    justify-content: space-around;
+}
+.block__card__a{
+    width: 45%;
+}
+.block__carte__2{
+    display: flex;
+    justify-content: space-around;
+}
+.card__new{
+    margin-left: 0%;
+}
+/*-- carte --*/
+.carte__liste{
+    display: flex;
+    justify-content: space-around;
+}
+.carte{
+    width: 31%;
+    font-size: 0.8em;
+    padding-left: 1%;
+}
+/*--Media Queries tablette 767px--*/
