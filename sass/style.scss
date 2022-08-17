@@ -68,26 +68,18 @@ header {
   & a {
     text-decoration: none;
     color: white;
-    z-index: 2;
   }
 }
-.discovery__btn:hover:after {
-  opacity: 1;
-}
-.discovery__btn:after {
-  content: "";
+.discovery__btn:hover {
   text-align: $textecenter;
   width: 210px;
   height: 50px;
-  line-height: 50px;
+  line-height: 49px;
   border-radius: 50px;
   background-image: linear-gradient(to bottom right, #ff9de4, #a674e2);
   box-shadow: 0px 2px 5px 3px #c3c3c3;
-  position: absolute;
   top: 0;
   right: 0;
-  z-index: -1;
-  opacity: 0;
   transition: opacity 450ms;
 }
 .search {
@@ -207,7 +199,7 @@ header {
   }
   .heartsolid:hover{
     opacity: 1;
-    transition-duration: 0.6s;
+    transition-duration: 0.4s;
   }
 
 .sitemap {
