@@ -7,8 +7,7 @@
     justify-content: center;
     padding-top: 150px;
     opacity: 0;
-    z-index: 0;
-    position: fixed;
+    z-index: 100;
 }
 .lettre{
     color: antiquewhite;
@@ -27,6 +26,7 @@
         color: antiquewhite;
         text-shadow: none;
         opacity: 1;
+        
     }
     100%{
         color: #9356dc;
@@ -59,16 +59,3 @@
     animation-delay: 0.8s;
 }
 
-.loader{
-    display: block;
-    width: 64px;
-    height: 64px;
-    position: relative;
-    margin-top: 85px;
-}
-.loader::before{
-    content: '';
-    position: absolute;
-    border: 5px solid #9356dc;
-
-}
