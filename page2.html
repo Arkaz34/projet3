@@ -7,8 +7,9 @@
     <script src="https://kit.fontawesome.com/d02a58a98d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/_desktop.css" media="screen and (min-width: 991px)" />
-    <link rel="stylesheet" href="css/_tablette.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/tablette.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 991px)" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
     <title>La note enchantée</title>
@@ -17,7 +18,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><i class="fas fa-arrow-left" ></i></a>
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
             <img src="img/logo/ohmyfood.png" alt="OhmyFood">
         </div>
     </header>
@@ -33,130 +34,128 @@
                     <i class="fa-solid fa-heart heartsolid"></i>
                 </div>
                 <div class="contenu__carte">
-                    <div class="carte__colonne">
-                        <div class="carte__groupe">
-                            <h2>ENTRÉES</h2>
-                            <ul class="carte__liste">
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Ravioles de foie gras</h3>
-                                        <p class="carte__texte">Accompagnés de leur crème à la truffe</p>
-                                    </div>
-                                    <p class="carte__prix">25€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Caviar osciètre</h3>
-                                        <p class="carte__texte">Sur blini à la farine de blé noir</p>
-                                    </div>
-                                    <p class="carte__prix">35€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Homard et espuma de potiron</h3>
-                                        <p class="carte__texte">Mariné aux zestes d'orange</p>
-                                    </div>
-                                    <p class="carte__prix">20€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Foie gras de canard cuit entier</h3>
-                                        <p class="carte__texte">Confiture de figue et pain toasté</p>
-                                    </div>
-                                    <p class="carte__prix">35€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="carte__groupe">
-                            <h2>PLATS</h2>
-                            <ul class="carte__liste">
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Noix de coquilles Saint-Jacques</h3>
-                                        <p class="carte__texte">Sur lit de purée de céleri-rave</p>
-                                    </div>
-                                    <p class="carte__prix">40€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Langoustine poêlée</h3>
-                                        <p class="carte__texte">Purée de patate douce</p>
-                                    </div>
-                                    <p class="carte__prix">35€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Mijoté de queue de boeuf</h3>
-                                        <p class="carte__texte">Et riz sauvage aux zestes de citron</p>
-                                    </div>
-                                    <p class="carte__prix">44€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="carte__groupe">
-                            <h2>DESSERTS</h2>
-                            <ul class="carte__liste">
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Macaron noisette et chocolat</h3>
-                                        <p class="carte__texte">Glace au caramel brun et sel de Guérande</p>
-                                    </div>
-                                    <p class="carte__prix">18€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Baba au rhum revisité</h3>
-                                        <p class="carte__texte">Avec son coulis de citron</p>
-                                    </div>
-                                    <p class="carte__prix">22€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                                <li class="carte">
-                                    <div class="carte__titre">
-                                        <h3>Tarte au citron meringuée </h3>
-                                        <p class="carte__texte">Déstructurée</p>
-                                    </div>
-                                    <p class="carte__prix">23€</p>
-                                    <div class="carte__check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="carte__groupe">
+                        <h2>ENTRÉES</h2>
+                        <ul>
+                            <li class="carte fad">
+                                <div class="carte__titre">
+                                    <h3>Ravioles de foie gras</h3>
+                                    <p class="carte__texte">Accompagnés de leur crème à la truffe</p>
+                                </div>
+                                <p class="carte__prix">25€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad">
+                                <div class="carte__titre">
+                                    <h3>Caviar osciètre</h3>
+                                    <p class="carte__texte">Sur blini à la farine de blé noir</p>
+                                </div>
+                                <p class="carte__prix">35€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad">
+                                <div class="carte__titre">
+                                    <h3>Homard et espuma de potiron</h3>
+                                    <p class="carte__texte">Mariné aux zestes d'orange</p>
+                                </div>
+                                <p class="carte__prix">20€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad">
+                                <div class="carte__titre">
+                                    <h3>Foie gras de canard cuit entier</h3>
+                                    <p class="carte__texte">Confiture de figue et pain toasté</p>
+                                </div>
+                                <p class="carte__prix">35€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="discovery">
+                    <div class="carte__groupe">
+                        <h2>PLATS</h2>
+                        <ul>
+                            <li class="carte fad_1">
+                                <div class="carte__titre">
+                                    <h3>Noix de coquilles Saint-Jacques</h3>
+                                    <p class="carte__texte">Sur lit de purée de céleri-rave</p>
+                                </div>
+                                <p class="carte__prix">40€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad_1">
+                                <div class="carte__titre">
+                                    <h3>Langoustine poêlée</h3>
+                                    <p class="carte__texte">Purée de patate douce</p>
+                                </div>
+                                <p class="carte__prix">35€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad_1">
+                                <div class="carte__titre">
+                                    <h3>Mijoté de queue de boeuf</h3>
+                                    <p class="carte__texte">Et riz sauvage aux zestes de citron</p>
+                                </div>
+                                <p class="carte__prix">44€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carte__groupe">
+                        <h2>DESSERTS</h2>
+                        <ul>
+                            <li class="carte fad_2">
+                                <div class="carte__titre">
+                                    <h3>Macaron noisette et chocolat</h3>
+                                    <p class="carte__texte">Glace au caramel brun et sel de Guérande</p>
+                                </div>
+                                <p class="carte__prix">18€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad_2">
+                                <div class="carte__titre">
+                                    <h3>Baba au rhum revisité</h3>
+                                    <p class="carte__texte">Avec son coulis de citron</p>
+                                </div>
+                                <p class="carte__prix">22€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                            <li class="carte fad_2">
+                                <div class="carte__titre">
+                                    <h3>Tarte au citron meringuée </h3>
+                                    <p class="carte__texte">Déstructurée</p>
+                                </div>
+                                <p class="carte__prix">23€</p>
+                                <div class="carte__check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="discovery">
                     <button class="discovery__btn">
                         <span>Commander</span>
                     </button>
-                    </div>
                 </div>
-            </div>    
+            </div>
         </section>
     </main>
     <footer class="sitemap">

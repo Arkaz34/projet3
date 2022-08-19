@@ -1,35 +1,72 @@
 /*-- Media Queries desktop 991px--*/
+.search__h2{
+    text-align:center;
+}
 .choix{
     display: flex;
+    justify-content: center;
     flex-direction: inherit;
     padding-left: 2%;
     padding-right: 3%;
 }
 .choix__li{
-    margin-left: 3%;
+    margin-left: 80px;
+    width: 22%;
 }
-.block__carte__1{
+.block__card__1{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .block__card__a{
     width: 45%;
 }
-.block__carte__2{
+.block__card__2{
     display: flex;
     justify-content: space-around;
 }
 .card__new{
     margin-left: 0%;
 }
-/*-- carte --*/
-.carte__liste{
+.card__img{
+    height: 280px;
+}
+
+/*-- page 1 2 3 4 --*/
+
+.contenu__titre{
+    display: flex;
+    justify-content: center;
+}
+.contenu__titre i{
+    right: 300px;
+}
+.contenu__carte{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+.carte__groupe{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border: 2px solid #99E2D0;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    box-shadow: 0px 2px 12px -3px #000;
+    width: 32%;
 }
-.carte{
-    width: 31%;
+.carte__groupe h2{
+    border: none;
+    margin-right: 0px;
     font-size: 0.8em;
-    padding-left: 1%;
 }
-/*--Media Queries tablette 767px--*/
+.groupe__liste{
+    width: 70%;
+}
+.carte h3{
+    font-size: 0.8em;
+}
+.carte p{
+    font-size: 0.7em;
+}

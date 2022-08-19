@@ -7,8 +7,9 @@
     <script src="https://kit.fontawesome.com/d02a58a98d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/_desktop.css" media="screen and (min-width: 991px)" />
-    <link rel="stylesheet" href="css/_tablette.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="css/tablette.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 991px)" />
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
     <title>La_palette_du_goût</title>
@@ -35,8 +36,8 @@
                 <div class="contenu__carte">
                     <div class="carte__groupe">
                         <h2>ENTRÉES</h2>
-                        <ul class="carte__liste">
-                            <li class="carte">
+                        <ul class="groupe__liste">
+                            <li class="carte fad">
                                 <div class="carte__titre">
                                     <h3>Fricassée d'escargot</h3>
                                     <p class="carte__texte">Au piment d'espelette</p>
@@ -46,7 +47,7 @@
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad">
                                 <div class="carte__titre">
                                     <h3>Foie gras de canard mi-cuit</h3>
                                     <p class="carte__texte">Et ses copeaux de truffe noire</p>
@@ -56,10 +57,10 @@
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad">
                                 <div class="carte__titre">
                                     <h3>Oeuf au plat</h3>
-                                    <p class="carte__texte">Assaisonné à la truffe sur lit de....</p>
+                                    <p class="carte__texte">Assaisonné à la truffe sur lit de caviar</p>
                                 </div>
                                 <p class="carte__prix">20€</p>
                                 <div class="carte__check">
@@ -70,18 +71,18 @@
                     </div>
                     <div class="carte__groupe">
                         <h2>PLATS</h2>
-                        <ul class="carte__liste">
-                            <li class="carte">
+                        <ul class="groupe__liste">
+                            <li class="carte fad_1">
                                 <div class="carte__titre">
                                     <h3>Filet de boeuf aux herbes</h3>
-                                    <p class="carte__texte">Accompagné de sa ribambelle de légu...</p>
+                                    <p class="carte__texte">Accompagné de sa ribambelle de légumes</p>
                                 </div>
                                 <p class="carte__prix">40€</p>
                                 <div class="carte__check">
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad_1">
                                 <div class="carte__titre">
                                     <h3>Parmentier de queue de boeuf</h3>
                                     <p class="carte__texte">À la truffe noire sur sa purée de panais</p>
@@ -91,7 +92,7 @@
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad_1">
                                 <div class="carte__titre">
                                     <h3>Filet de turbot</h3>
                                     <p class="carte__texte">Aux agrumes</p>
@@ -105,8 +106,8 @@
                     </div>
                     <div class="carte__groupe">
                         <h2>DESSERTS</h2>
-                        <ul class="carte__liste">
-                            <li class="carte">
+                        <ul class="groupe__liste">
+                            <li class="carte fad_2">
                                 <div class="carte__titre">
                                     <h3>Paris-Brest</h3>
                                     <p class="carte__texte">Revisité</p>
@@ -116,7 +117,7 @@
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad_2">
                                 <div class="carte__titre">
                                     <h3>Macaron au chocolat d'exception</h3>
                                     <p class="carte__texte">Et glace à la vanille de Madagascar</p>
@@ -126,7 +127,7 @@
                                     <i class="fa-solid fa-circle-check"></i>
                                 </div>
                             </li>
-                            <li class="carte">
+                            <li class="carte fad_2">
                                 <div class="carte__titre">
                                     <h3>Mousse au chocolat</h3>
                                     <p class="carte__texte">Au piment d'espelette et à la truffe noire</p>
@@ -138,12 +139,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="discovery">
-                        <button class="discovery__btn">
-                            <span>Commander</span>
-                        </button>
-                    </div>
                 </div>
+                <div class="discovery">
+                    <button class="discovery__btn">
+                        <span>Commander</span>
+                    </button>
+                </div>
+
             </div>
         </section>
     </main>

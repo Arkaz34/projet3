@@ -23,7 +23,7 @@ header {
   text-align: $textecenter;
   & img {
     padding-top: 20px;
-    width: 43%;
+    width: 51%;
     padding-bottom: 10px;
   }
 }
@@ -232,7 +232,7 @@ header {
   }
 }
 
-/*-- page1 2 3 4 --*/
+/*-- page 1 2 3 4 --*/
 .logo {
   display: flex;
   justify-content: center;
@@ -254,7 +254,6 @@ header {
     height: 260px;
   }
   &__contenu {
-    background-color: white;
     border-radius: 30px;
     margin-top: -50px;
     background-color: $couleur-de-fond;
@@ -265,7 +264,7 @@ header {
   position: relative;
   padding: 25px 20px;
   & h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   & i {
     position: absolute;
@@ -296,24 +295,33 @@ header {
   border-radius: 15px;
   height: 60px;
   box-shadow: $box-shadow;
-  padding-left: 2%;
-  text-decoration: none;
   overflow: hidden;
-  &__titre {
+  cursor: pointer;
+    &__titre {
     width: 100%;
+    margin-left: 10px;
+    overflow: hidden;
   }
-  & h3{
+    & h3{
     font-size: 0.9em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
   }
   &__texte {
     margin-top: 4px;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   &__prix {
-    margin-top: 25px;
+    margin-top: 21px;
     font-weight: bold;
     font-size: 0.8em;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-left: 5px;
     transition: all 0.5s;
   }
 }
@@ -330,14 +338,14 @@ header {
 .carte__check{
   background-color: #99e2d0;
     color: #fff;
-    width: 20%;
+    width: 67px;
     height: 60px;
     border-radius: 0px 15px 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.3em;
-    margin-right: -20%;
+    margin-right: -62px;
     transition-duration: 0.5s;
   }
   .fa-circle-check{
