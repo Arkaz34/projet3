@@ -1,4 +1,10 @@
 /*-- Media Queries desktop 991px--*/
+.lettre{
+    font-size: 8em;
+}
+header img{
+    width: 350px;
+}
 .search__h2{
     text-align:center;
 }
@@ -34,6 +40,9 @@
 
 /*-- page 1 2 3 4 --*/
 
+.menu img{
+    height: 400px;
+}
 .contenu__titre{
     display: flex;
     justify-content: center;

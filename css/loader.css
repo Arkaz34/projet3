@@ -6,7 +6,7 @@
     background: linear-gradient(to bottom, #ff79da, #9356dc);
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 200px;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@
 
 .lettre{
     color: antiquewhite;
-    font-size: 60px;
+    font-size: 3em;
     letter-spacing: 10px;
     margin-bottom: 200px;
     animation: move 1.8s linear infinite;

@@ -1,4 +1,10 @@
 /*-- Media Queries tablette 768px--*/
+header img{
+    width: 250px;
+}
+.lettre{
+    font-size: 6em;
+}
 .choix{
     display: flex;
     flex-direction: inherit;
