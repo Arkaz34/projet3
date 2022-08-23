@@ -1,4 +1,2 @@
-background: linear-gradient(to bottom, #9356DC, #FF79DA);
-    background: -webkit-linear-gradient(to bottom, #9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/*-- lien github --*/
+

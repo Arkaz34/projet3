@@ -25,7 +25,7 @@ header img{
     display: flex;
     justify-content: space-around;
 }
-.card__new{
+.card__nouveau{
     margin-left: 3%;
 }
 
@@ -35,11 +35,14 @@ header img{
     justify-content: center;
 }
 .contenu__titre i{
-    right: 210px;
+    right: 32%;
+}
+.contenu__carte{
+    padding: 0px 110px;
 }
 .carte__groupe{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 2px solid #99E2D0;
     border-radius: 25px;
@@ -47,9 +50,8 @@ header img{
     box-shadow: 0px 2px 12px -3px #000;
 }
 .groupe__liste{
-    width: 46%;
+    width: 55%;
 }
 .carte__groupe h2{
     border: none;
-    margin-right: 100px;
 }

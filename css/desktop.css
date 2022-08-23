@@ -5,7 +5,7 @@
 header img{
     width: 350px;
 }
-.search__h2{
+.chercher__h2{
     text-align:center;
 }
 .choix{
@@ -31,7 +31,7 @@ header img{
     display: flex;
     justify-content: space-around;
 }
-.card__new{
+.card__nouveau{
     margin-left: 0%;
 }
 .card__img{
@@ -48,7 +48,7 @@ header img{
     justify-content: center;
 }
 .contenu__titre i{
-    right: 300px;
+    right: 34%;
 }
 .contenu__carte{
     display: flex;
@@ -68,14 +68,14 @@ header img{
 .carte__groupe h2{
     border: none;
     margin-right: 0px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .groupe__liste{
     width: 70%;
 }
 .carte h3{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .carte p{
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
