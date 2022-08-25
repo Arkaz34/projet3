@@ -281,13 +281,18 @@ header {
   flex-direction: column;
 }
 .carte__groupe {
-  margin: 10px 0px 20px 0px;
-  & h2 {
+    margin: 10px 0px 20px 0px;
+    height: 230px;
+    & h2 {
     font-weight: initial;
     border-bottom: 3px solid $couleur-tertiaire;
     width: 42px;
   }
 }
+.special{
+  height: 306px;
+}
+
 .carte{
   display: flex;
   align-items: center;

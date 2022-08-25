@@ -1,4 +1,5 @@
 /*-- loading desktop --*/
+
 .preloader {
     animation: display 3s;
     width: 0;
@@ -78,18 +79,71 @@
 }
 
 /*-- loading carte --*/
-.fad,.fad_1,.fad_2{
-    animation: carte 1.2s linear;
+.fad{
+    animation: carte 1s linear forwards;
     animation-direction:normal;
-    margin-top: 15px;
+    opacity: 0;
 }
+.fad_1{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+.fad_2{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+.fad_3{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+.fad_4{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+.fad_5{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 1s;
+    opacity: 0;
+}
+.fad_6{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 1.2s;
+    opacity: 0;
+}
+.fad_7{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 1.4s;
+    opacity: 0;
+}
+.fad_8{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 1.6s;
+    opacity: 0;
+}
+.fad_9{
+    animation: carte 1s linear forwards;
+    animation-direction:normal;
+    animation-delay: 1.8s;
+    opacity: 0;
+}
+
 @keyframes carte{
     from{
-    margin-top: 50px;
     opacity: 0;
     }
     to{
-    margin-top: 15px;
     opacity: 1;
     }
 }
