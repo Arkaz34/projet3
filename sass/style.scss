@@ -32,7 +32,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e9e9e9;
+  background-color: #b1b1b1;
   & i {
     margin-right: 15px;
   }
@@ -55,8 +55,8 @@ header {
   }
   &__btn {
     border: 0;
-    width: 210px;
-    height: 50px;
+    width: 240px;
+    height: 56px;
     margin: 17px 0px;
     background: $background-color;
     border-radius: 50px;
@@ -70,13 +70,11 @@ header {
     color: $couleur-unis;
   }
 }
-.decouverte__btn:hover {
+.decouverte__btn:hover, .decouverte__btn:active, .decouverte__btn:focus {
   text-align: $paracenter;
-  width: 210px;
-  height: 50px;
   line-height: 49px;
   border-radius: 50px;
-  background-image: linear-gradient(to bottom right, #e992d0, #a06edc);
+  background-image: linear-gradient(to bottom right, #e8a6d5, #a885d2);
   box-shadow: 0px 2px 5px 3px $couleur-box;
   top: 0;
   right: 0;
@@ -123,14 +121,14 @@ header {
     font-size: 1.1em;
   }
 }
-.choix__li:hover {
-  background-color: #f0e7fa;
+.choix__li:hover, .choix__li:active, .choix__li:focus {
+  background-color: #c2a3e4;
+  &:hover i, &:active i, &:focus i{
+  color:rgb(121, 40, 203);
 }
-.choix__li:hover i{
-  color:rgb(102, 17, 186);
 }
 .block {
-  background-color: #f4f4f4;
+  background-color: $couleur-de-fond;
   padding-top: 40px;
   padding-bottom: 40px;
   &__card__h2 {
@@ -198,7 +196,7 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .heartsolid:hover{
+  .heartsolid:hover, .heartsolid:active, .heartsolid:focus{
     opacity: 1;
     transition-duration: 0.4s;
   }
@@ -331,7 +329,7 @@ header {
     transition: all 0.5s;
   }
 }
-.carte:hover{
+.carte:hover, .carte:active, .carte:focus{
   .carte__check{
   margin-right: 0px;
   transition-duration: 0.5s;
