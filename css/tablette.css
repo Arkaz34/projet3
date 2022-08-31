@@ -14,9 +14,13 @@ header img{
 .choix__li{
     margin-left: 3%;
 }
+.block{
+    height: 745px;
+}
 .block__card__1{
     display: flex;
     justify-content: space-around;
+    margin-top: 90px;
 }
 .block__card{
     width: 45%;
@@ -26,7 +30,7 @@ header img{
     justify-content: space-around;
 }
 .card__nouveau{
-    margin-left: 3%;
+    margin-left: 30%;
 }
 
 /*-- page 1 2 3 4 --*/
@@ -55,4 +59,8 @@ header img{
 }
 .carte__groupe h2{
     border: none;
+}
+.plandusite{
+    
+
 }

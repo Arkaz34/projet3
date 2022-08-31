@@ -2,6 +2,11 @@
 .lettre{
     font-size: 8em;
 }
+.logo a{
+    font-size: 1.9em;
+    top: -14px;
+    left: 7%;
+}
 header img{
     width: 350px;
 }
@@ -19,6 +24,9 @@ header img{
     margin-left: 80px;
     width: 22%;
 }
+.block{
+    height: 910px;
+}
 .block__card__1{
     display: flex;
     justify-content: space-around;
@@ -31,9 +39,6 @@ header img{
     display: flex;
     justify-content: space-around;
 }
-.card__nouveau{
-    margin-left: 0%;
-}
 .card__img{
     height: 280px;
 }
@@ -42,10 +47,15 @@ header img{
 
 .menu img{
     height: 400px;
+    margin-top: 21px;
+}
+.menu__contenu{
+    height: 923px; 
 }
 .contenu__titre{
     display: flex;
     justify-content: center;
+    height: 80px;
 }
 .contenu__titre i{
     right: 34%;
@@ -53,29 +63,41 @@ header img{
 .contenu__carte{
     display: flex;
     flex-direction: inherit;
-    justify-content: space-between;
+    padding: 0;
+    justify-content: space-around;
+    height: 405px;
+    margin-top: 19px;
+    margin-bottom: 32px;
 }
 .carte__groupe{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     border: 2px solid #99E2D0;
     border-radius: 25px;
     padding-bottom: 15px;
     box-shadow: 0px 2px 12px -3px #000;
-    width: 32%;
+    width: 31%;
+    height: 345px;
 }
 .carte__groupe h2{
     border: none;
     margin-right: 0px;
     font-size: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .groupe__liste{
-    width: 70%;
+    width: 97%;
 }
 .carte h3{
     font-size: 1em;
 }
 .carte p{
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+.plandusite{
+    max-width: 1500px;
+    margin: auto;
 }

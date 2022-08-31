@@ -30,11 +30,11 @@
 }
 
 .lettre{
+    animation: move 1.8s linear infinite;
     color: antiquewhite;
     font-size: 3em;
     letter-spacing: 10px;
     margin-bottom: 200px;
-    animation: move 1.8s linear infinite;
 }
 @keyframes move {
     0% {
@@ -43,7 +43,7 @@
         text-shadow: 0px 0px 7px #9356dc;
     }
     98% {
-        color: antiquewhite;
+        color: wheat;
         text-shadow: none;
         opacity: 1;
     }
